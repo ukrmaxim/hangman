@@ -33,5 +33,5 @@ If the torso in the gallows is drawn completely, then the player loses and is co
 Instructions how to add words
 -
 In order to change or add the words that the computer thinks, you need to edit the `words.txt` file, which is located in the `hangman/data` folder.
-###Attention!
+### Attention!
 Each word is written on a **new line**. All letters of the word are written in UPPERCASE.
