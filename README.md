@@ -22,9 +22,17 @@ https://github.com/rbenv/rbenv#installing-ruby-versions
 
 Quick start
 -
-On command line/terminal, go to the directory, where you unpacked the archive and type in the following commands:
+### Attention!
+For correctly application work, you need install a Ruby gem 'colorize' (https://github.com/fazibear/colorize).
+For gem installation, on command line/terminal, go to the directory, where you unpacked the archive and type in the
+following commands:
 
-`ruby hangman.rb`
+`bundle install`
+
+To run the application, on command line/terminal, go to the directory, where you unpacked the archive and type in the
+following commands:
+
+`bundle exec ruby main.rb`
 
 Rules of the game
 -
