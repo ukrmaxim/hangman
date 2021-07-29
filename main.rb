@@ -5,7 +5,7 @@ require 'colorized_string'
 
 puts 'Ну что, поиграем!'
 
-word = File.readlines("#{__dir__}/data/words.txt", encoding: 'UTF-8', chomp: true).sample
+word = File.readlines("#{__dir__}/data/words.txt", encoding: 'UTF-8', chomp: true).sample.upcase
 game = Game.new(word)
 console_interface = ConsoleInterface.new(game)
 

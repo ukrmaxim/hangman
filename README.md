@@ -27,15 +27,14 @@ Quick start
 
 ### Attention
 
-For correctly application work, you need install a Ruby gem 'colorize' (<https://github.com/fazibear/colorize>).
-For gem installation, on command line/terminal, go to the directory, where you unpacked the archive and type in the
+Before run  the app, on command line/terminal, go to the directory, where you clone repository and type in the
 following command:
 
 ```ruby
 bundle install
 ```
 
-To run the application, on command line/terminal, go to the directory, where you unpacked the archive and type in the
+To run the app, on command line/terminal, go to the directory, where you clone repository and type in the
 following command:
 
 ```ruby
@@ -61,4 +60,4 @@ in the `hangman/data` folder.
 
 ### Attention
 
-Each word is written on a **new line**. All letters of the word are written in UPPERCASE.
+Each word is written on a **new line**.
